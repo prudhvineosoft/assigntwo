@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-container {
+    background-color: #fff5e4;
+    min-height: 100vh;
+    padding: 70px;
+    padding-top: 0px;
+}
+.my-nave {
+    margin-top: 0px;
+    min-height: 70px;
+    background-color: transparent;
+}
+.header {
+    display: flex;
+    align-items: center;
+}
+.name {
+    margin-top: 16px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.car {
+    background-image: url("../ecomerse/Capa-4.jpg");
+    height: 590px;
+    padding-left: 150px;
+    padding-top: 120px;
+}
+.car2 {
+    background-image: url("../ecomerse/woman-searching-backpack.jpg");
+    background-size: cover;
+    color: #db9419;
+    height: 590px;
+    padding-left: 150px;
+    padding-top: 120px;
+}
+.car3 {
+    background-image: url("../ecomerse/woman-with-backpack-exploring-nature.jpg");
+    background-size: cover;
+    color: #fff5e4;
+    height: 590px;
+    padding-left: 150px;
+    padding-top: 120px;
+}
+.car-heading {
+    font-size: 70px;
+    font-style: italic;
+    font-weight: bolder;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.offer {
+    width: 32%;
+}
+.offer2 {
+    background-color: #f2635f;
+}
+.offer3 {
+    background-color: #f4d00c;
+}
+.hr-links {
+    width: 10px;
+    background-color: black;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 2px;
+}
+.card-para {
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+.card-para2 {
+    color: #f36e69;
+    font-weight: 600;
+}
+.cards-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box-heading {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.price {
+    color: #f36e69;
+    font-weight: 600;
+    font-size: 30px;
+}
+.date-box {
+    height: 60px;
+    width: 60px;
+    color: white;
+    text-align: center;
+}
+.sc-card {
+    width: 380px;
+    height: 550px;
+}
+.scroll-card-card {
+    width: 300px;
+    align-self: center;
+    overflow-y: auto;
+}
+/* width */
+.scroll-card-card::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  .scroll-card-card::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  .scroll-card-card::-webkit-scrollbar-thumb {
+    background: rgb(71, 113, 230); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .scroll-card-card::-webkit-scrollbar-thumb:hover {
+    background: blue; 
+  }
+
+.footer-image-section {
+    background-image: url("../ecomerse/boat-1630826254099-6315.jpg");
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+.fading-section {
+    background-color: rgba(3, 0, 0, 0.6);
+    height: 600px;
+    width: 100%;
+}
+.footer-card-content {
+    width: 60%;
+    align-self: center;
+}
+.social {
+    min-width: 20%;
+    padding: 10px;
+}
+.soc-1 {
+    background-color: #334c82;
+}
+.soc-2 {
+    background-color: #29c3f7;
+}
+.soc-3 {
+    background-color: #c10894;
+}
+.soc-4 {
+    background-color: #de3e7c;
+}
+.soc-5 {
+    background-color: #cc2127;
+}
